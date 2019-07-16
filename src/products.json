@@ -1,0 +1,115 @@
+[
+        {
+        "stockId": 1,
+        "image": "/static/media/1.2f5e9da2.jpg",
+        "inCart": false,
+        "details": "",
+        "price": 500
+        },
+        {
+        "stockId": 2,
+        "image": "/static/media/2.e0db93ac.jpg",
+        "inCart": false,
+        "details": "",
+        "price": 500
+        },
+        {
+        "stockId": 17,
+        "image": "/static/media/17.b57b5842.jpg",
+        "inCart": false,
+        "details": "",
+        "price": 250
+        },
+        {
+        "stockId": 18,
+        "image": "/static/media/18.c4b1a7f4.jpg",
+        "inCart": false,
+        "details": "",
+        "price": 250
+        },
+        {
+        "stockId": 19,
+        "image": "/static/media/19.2f5e9da2.jpg",
+        "inCart": false,
+        "details": "",
+        "price": 250
+        },
+        {
+        "stockId": 20,
+        "image": "/static/media/20.e0db93ac.jpg",
+        "inCart": false,
+        "details": "",
+        "price": 250
+        },
+        {
+        "stockId": 21,
+        "image": "/static/media/21.7f21996f.jpg",
+        "inCart": false,
+        "details": "",
+        "price": 250
+        },
+        {
+        "stockId": 22,
+        "image": "/static/media/22.0580ff46.jpg",
+        "inCart": false,
+        "details": "",
+        "price": 250
+        },
+        {
+        "stockId": 24,
+        "image": "/static/media/24.a89f4bd9.jpg",
+        "inCart": false,
+        "details": "",
+        "price": 250
+        },
+        {
+        "stockId": 25,
+        "image": "/static/media/25.237b3325.jpg",
+        "inCart": false,
+        "details": "",
+        "price": 250
+        },
+        {
+        "stockId": 26,
+        "image": "/static/media/26.a6f8b697.jpg",
+        "inCart": false,
+        "details": "",
+        "price": 250
+        },
+        {
+        "stockId": 27,
+        "image": "/static/media/27.cee81100.jpg",
+        "inCart": false,
+        "details": "",
+        "price": 250
+        },
+        {
+        "stockId": 29,
+        "image": "/static/media/29.273d8304.jpg",
+        "inCart": false,
+        "details": "",
+        "price": 250
+        },
+        {
+        "stockId": 30,
+        "image": "/static/media/30.5e0e3b57.jpg",
+        "inCart": false,
+        "details": "",
+        "price": 250
+        },
+        {
+        "stockId": 31,
+        "image": "/static/media/31.7b972b96.jpg",
+        "inCart": false,
+        "details": "",
+        "price": 250
+        },
+        {
+        "stockId": 33,
+        "image": "/static/media/33.7a72b3b2.jpg",
+        "inCart": false,
+        "details": "",
+        "price": 250
+        }
+    ]
+
