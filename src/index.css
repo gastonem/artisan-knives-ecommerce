@@ -16,7 +16,7 @@ code {
   background-color: gray !important;
   -webkit-border-radius: 14px;
   -moz-border-radius: 14px;
-  width: 275px;
+  /* width: 256px; */
   margin: 5px 5px 5px 5px;
   border-radius: 14px;
 }
