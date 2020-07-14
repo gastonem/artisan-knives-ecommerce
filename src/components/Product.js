@@ -18,7 +18,7 @@ export default class Product extends Component {
                 {console.log(this.props.product)}
                         <div className="card">
                             <Link to="/details">
-                        <Image className="card-img-top m-2 p-2" alt="product" src={image} onClick={() => console.log("clicked the image")} />
+                        <Image className="card-img-top m-2 p-2" alt="product" src={`${image}`} onClick={() => console.log("clicked the image")} />
                             </Link>
                             <div className="card-body">
                                 <Link to="/details">
