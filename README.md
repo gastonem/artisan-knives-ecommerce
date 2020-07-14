@@ -11,6 +11,6 @@ Run `npm start`
 
 ### To contribute
 
-Create a branch
-Make a pull request
-Select me to review it
+1. Create a branch
+2. Make a pull request
+3. Select me to review it
