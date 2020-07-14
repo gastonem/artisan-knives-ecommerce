@@ -24,7 +24,7 @@ class App extends Component {
           <Route path="/about" component={About} />
           <Route path="/faq" component={Faq} />
           <Route component={Default} />
-        </Switch>  
+        </Switch>
       </React.Fragment>
     );
   }

@@ -5,224 +5,126 @@ https://www.iconfinder.com/Makoto_msk */
 
 export const storeProducts = [
   {
-    id: 1,
-    title: "Google Pixel - Black",
-    img: "/static/media/1.2f5e9da2.jpg",
-    price: 250,
-    details:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
-    inCart: true,
-    count: 0,
-    total: 0
+    "stockId": 1,
+    "image": "`${process.env.PUBLIC_URL}` + '/img/1.jpg'",
+    "inCart": false,
+    "details": "",
+    "price": 500
   },
   {
-    id: 2,
-    title: "Samsung S7",
-    img: "/static/media/2.e0db93ac.jpg",
-    price: 500,
-    details:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
-    inCart: false,
-    count: 0,
-    total: 0
+    "stockId": 2,
+    "image": "`{$process.env.PUBLIC_URL}` + '/img/2.jpg'",
+    "inCart": false,
+    "details": "",
+    "price": 500
   },
   {
-    id: 3,
-    title: "HTC 10 - Black",
-    img: "/static/media/17.b57b5842.jpg",
-    price: 250,
-    details:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
-    inCart: false,
-    count: 0,
-    total: 0,
+    "stockId": 17,
+    "image": "`${process.env.PUBLIC_URL}` + '/img/3.jpg'",
+    "inCart": false,
+    "details": "",
+    "price": 250
   },
   {
-    id: 4,
-    title: "HTC 10 - White",
-    img: "/static/media/18.c4b1a7f4.jpg",
-    price: 18,
-    details:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
-    inCart: false,
-    count: 0,
-    total: 0
+    "stockId": 18,
+    "image": "`${process.env.PUBLIC_URL}` + '/img/4.jpg'",
+    "inCart": false,
+    "details": "",
+    "price": 250
   },
   {
-    id: 5,
-    title: "HTC Desire 626s",
-    img: "/static/media/19.2f5e9da2.jpg",
-    price: 500,
-    info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
-    inCart: false,
-    count: 0,
-    total: 0
+    "stockId": 19,
+    "image": "`$process.env.PUBLIC_URL` + '/img/5.jpg'",
+    "inCart": false,
+    "details": "",
+    "price": 250
   },
   {
-    id: 6,
-    title: "Vintage Iphone",
-    img: "/static/media/20.e0db93ac.jpg",
-    price: 300,
-    details:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
-    inCart: false,
-    count: 0,
-    total: 0
+    "stockId": 20,
+    "image": "`$process.env.PUBLIC_URL` + '/img/6.jpg'",
+    "inCart": false,
+    "details": "",
+    "price": 250
+  },
+  {
+    "stockId": 21,
+    "image": "/static/media/21.7f21996f.jpg",
+    "inCart": false,
+    "details": "",
+    "price": 250
+  },
+  {
+    "stockId": 22,
+    "image": "/static/media/22.0580ff46.jpg",
+    "inCart": false,
+    "details": "",
+    "price": 250
+  },
+  {
+    "stockId": 24,
+    "image": "/static/media/24.a89f4bd9.jpg",
+    "inCart": false,
+    "details": "",
+    "price": 250
+  },
+  {
+    "stockId": 25,
+    "image": "/static/media/25.237b3325.jpg",
+    "inCart": false,
+    "details": "",
+    "price": 250
+  },
+  {
+    "stockId": 26,
+    "image": "/static/media/26.a6f8b697.jpg",
+    "inCart": false,
+    "details": "",
+    "price": 250
+  },
+  {
+    "stockId": 27,
+    "image": "/static/media/27.cee81100.jpg",
+    "inCart": false,
+    "details": "",
+    "price": 250
+  },
+  {
+    "stockId": 29,
+    "image": "/static/media/29.273d8304.jpg",
+    "inCart": false,
+    "details": "",
+    "price": 250
+  },
+  {
+    "stockId": 30,
+    "image": "/static/media/30.5e0e3b57.jpg",
+    "inCart": false,
+    "details": "",
+    "price": 250
+  },
+  {
+    "stockId": 31,
+    "image": "/static/media/31.7b972b96.jpg",
+    "inCart": false,
+    "details": "",
+    "price": 250
+  },
+  {
+    "stockId": 33,
+    "image": "/static/media/33.7a72b3b2.jpg",
+    "inCart": false,
+    "details": "",
+    "price": 250
   }
-  // {
-  //   id: 7,
-  //   title: "Iphone 7",
-  //   img: "../img/21.jpg",
-  //   price: 30,
-  //   company: "apple",
-  //   info:
-  //     "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
-  //   inCart: false,
-  //   count: 0,
-  //   total: 0
-  // },
-  // {
-  //   id: 8,
-  //   title: "Smashed Iphone",
-  //   img: "../img/22.jpg",
-  //   price: 2,
-  //   company: "apple",
-  //   info:
-  //     "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
-  //   inCart: false,
-  //   count: 0,
-  //   total: 0
-  // },
-  // {
-  //   id: 9,
-  //   title: "Smashed Iphone",
-  //   img: "../img/22.jpg",
-  //   price: 2,
-  //   company: "apple",
-  //   info:
-  //     "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
-  //   inCart: false,
-  //   count: 0,
-  //   total: 0
-  // },
-  // {
-  //   id: 10,
-  //   title: "Smashed Iphone",
-  //   img: "../img/24.jpg",
-  //   price: 2,
-  //   company: "apple",
-  //   info:
-  //     "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
-  //   inCart: false,
-  //   count: 0,
-  //   total: 0
-  // },
-  // {
-  //   id: 11,
-  //   title: "Smashed Iphone",
-  //   img: "../img/22.jpg",
-  //   price: 2,
-  //   company: "apple",
-  //   info:
-  //     "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
-  //   inCart: false,
-  //   count: 0,
-  //   total: 0
-  // },
-  // {
-  //   id: 12,
-  //   title: "Smashed Iphone",
-  //   img: "../img/25.jpg",
-  //   price: 2,
-  //   company: "apple",
-  //   info:
-  //     "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
-  //   inCart: false,
-  //   count: 0,
-  //   total: 0
-  // },
-  // {
-  //   id: 13,
-  //   title: "Smashed Iphone",
-  //   img: "../img/26.jpg",
-  //   price: 2,
-  //   company: "apple",
-  //   info:
-  //     "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
-  //   inCart: false,
-  //   count: 0,
-  //   total: 0
-  // },
-  // {
-  //   id: 14,
-  //   title: "Smashed Iphone",
-  //   img: "../img/27.jpg",
-  //   price: 2,
-  //   company: "apple",
-  //   info:
-  //     "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
-  //   inCart: false,
-  //   count: 0,
-  //   total: 0
-  // },
-  // {
-  //   id: 15,
-  //   title: "Smashed Iphone",
-  //   img: "../img/29.jpg",
-  //   price: 2,
-  //   company: "apple",
-  //   info:
-  //     "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
-  //   inCart: false,
-  //   count: 0,
-  //   total: 0
-  // },
-  // {
-  //   id: 16,
-  //   title: "Smashed Iphone",
-  //   img: "../img/30.jpg",
-  //   price: 2,
-  //   company: "apple",
-  //   info:
-  //     "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
-  //   inCart: false,
-  //   count: 0,
-  //   total: 0
-  // },
-  // {
-  //   id: 17,
-  //   title: "Smashed Iphone",
-  //   img: "../img/31.jpg",
-  //   price: 2,
-  //   company: "apple",
-  //   info:
-  //     "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
-  //   inCart: false,
-  //   count: 0,
-  //   total: 0
-  // },
-  // {
-  //   id: 18,
-  //   title: "Smashed Iphone",
-  //   img: "../img/33.jpg",
-  //   price: 2,
-  //   company: "apple",
-  //   info:
-  //     "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
-  //   inCart: false,
-  //   count: 0,
-  //   total: 0
-  // }
 ];
 
 export const detailProduct = {
-  "id": 1,
-  "title": "Google Pixel - Black",
-  "img": "img/product-1.png",
-  "price": 10,
+  "stockId": 1,
+  "title": "Handmade Artisan Knife",
+  "img": "../public/img/1.jpg",
+  "price": 0,
   "details":
-    "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+    "Resources used: locally sourced wood.",
   "inCart": false,
   "count": 0,
   "total": 0
