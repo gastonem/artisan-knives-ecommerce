@@ -1,54 +1,49 @@
-/* 
-https://www.iconfinder.com/icons/1243689/call_phone_icon
-Creative Commons (Attribution 3.0 Unported);
-https://www.iconfinder.com/Makoto_msk */
-
 export const storeProducts = [
   {
     "stockId": 1,
-    "image": "`${process.env.PUBLIC_URL}` + '/img/1.jpg'",
+    "image": "../public/img/1.jpg",
     "inCart": false,
     "details": "",
     "price": 500
   },
   {
     "stockId": 2,
-    "image": "`{$process.env.PUBLIC_URL}` + '/img/2.jpg'",
+    "image": "../public/img/2.jpg",
     "inCart": false,
     "details": "",
     "price": 500
   },
   {
     "stockId": 17,
-    "image": "`${process.env.PUBLIC_URL}` + '/img/3.jpg'",
+    "image": "../public/img/3.jpg",
     "inCart": false,
     "details": "",
     "price": 250
   },
   {
     "stockId": 18,
-    "image": "`${process.env.PUBLIC_URL}` + '/img/4.jpg'",
+    "image": "../public/img/4.jpg",
     "inCart": false,
     "details": "",
     "price": 250
   },
   {
     "stockId": 19,
-    "image": "`$process.env.PUBLIC_URL` + '/img/5.jpg'",
+    "image": "../public/img/5.jpg",
     "inCart": false,
     "details": "",
     "price": 250
   },
   {
     "stockId": 20,
-    "image": "`$process.env.PUBLIC_URL` + '/img/6.jpg'",
+    "image": "../../public/img/6.jpg",
     "inCart": false,
     "details": "",
     "price": 250
   },
   {
     "stockId": 21,
-    "image": "/static/media/21.7f21996f.jpg",
+    "image": "public/img/1.jpg",
     "inCart": false,
     "details": "",
     "price": 250
