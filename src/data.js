@@ -1,35 +1,35 @@
 export const storeProducts = [
   {
     "stockId": 1,
-    "image": "../public/img/1.jpg",
+    "image": "public/img/1.jpg",
     "inCart": false,
     "details": "",
     "price": 500
   },
   {
     "stockId": 2,
-    "image": "../public/img/2.jpg",
+    "image": "public/img/2.jpg",
     "inCart": false,
     "details": "",
     "price": 500
   },
   {
     "stockId": 17,
-    "image": "../public/img/3.jpg",
+    "image": "public/img/3.jpg",
     "inCart": false,
     "details": "",
     "price": 250
   },
   {
     "stockId": 18,
-    "image": "../public/img/4.jpg",
+    "image": "public/img/4.jpg",
     "inCart": false,
     "details": "",
     "price": 250
   },
   {
     "stockId": 19,
-    "image": "../public/img/5.jpg",
+    "image": "public/img/5.jpg",
     "inCart": false,
     "details": "",
     "price": 250
