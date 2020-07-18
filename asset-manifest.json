@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/artisan-knives-ecommerce/static/css/main.721cfc32.chunk.css",
+    "main.js": "/artisan-knives-ecommerce/static/js/main.1d12f76f.chunk.js",
+    "main.js.map": "/artisan-knives-ecommerce/static/js/main.1d12f76f.chunk.js.map",
+    "runtime~main.js": "/artisan-knives-ecommerce/static/js/runtime~main.460dc90f.js",
+    "runtime~main.js.map": "/artisan-knives-ecommerce/static/js/runtime~main.460dc90f.js.map",
+    "static/css/2.266e55a5.chunk.css": "/artisan-knives-ecommerce/static/css/2.266e55a5.chunk.css",
+    "static/js/2.04827f1e.chunk.js": "/artisan-knives-ecommerce/static/js/2.04827f1e.chunk.js",
+    "static/js/2.04827f1e.chunk.js.map": "/artisan-knives-ecommerce/static/js/2.04827f1e.chunk.js.map",
+    "index.html": "/artisan-knives-ecommerce/index.html",
+    "precache-manifest.4d6f3345c3de859a51b65970367a93ea.js": "/artisan-knives-ecommerce/precache-manifest.4d6f3345c3de859a51b65970367a93ea.js",
+    "service-worker.js": "/artisan-knives-ecommerce/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/artisan-knives-ecommerce/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.721cfc32.chunk.css.map": "/artisan-knives-ecommerce/static/css/main.721cfc32.chunk.css.map",
+    "static/media/knife.svg": "/artisan-knives-ecommerce/static/media/knife.10318417.svg"
+  }
+}
